@@ -1,0 +1,39 @@
+               +------------------------+
+               |      IReprodutor       | (interface)
+               +------------------------+
+               | +tocar()               |
+               | +pausar()              |
+               | +selecionarMusica()    |
+               +------------------------+
+
+               +------------------------+
+               |      IAparelho         | (interface)
+               +------------------------+
+               | +ligar()               |
+               | +atender()             |
+               | +iniciarCorreioVoz()   |
+               +------------------------+
+
+               +------------------------+
+               |      INavegador        | (interface)
+               +------------------------+
+               | +exibirPagina()        |
+               | +adicionarNovaAba()    |
+               | +atualizarPagina()     |
+               +------------------------+
+
+               +------------------------+
+               |        iPhone          |
+               +------------------------+
+               |                        |
+               +------------------------+
+               | +tocar()               |
+               | +pausar()              |
+               | +selecionarMusica()    |
+               | +ligar()               |
+               | +atender()             |
+               | +iniciarCorreioVoz()   |
+               | +exibirPagina()        |
+               | +adicionarNovaAba()    |
+               | +atualizarPagina()     |
+               +------------------------+
